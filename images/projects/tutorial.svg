@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#172336"/><stop offset="1" stop-color="#34445a"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#5acbcf"/><stop offset="1" stop-color="#91a9ff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1025" cy="95" r="245" fill="#91a9ff" opacity=".09"/>
+  <text x="80" y="150" fill="#8ce5e2" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">GUIDE PRATIQUE</text>
+  <text x="80" y="250" fill="#fff" font-family="Arial,sans-serif" font-size="74" font-weight="700">DESKTOP</text>
+  <text x="80" y="330" fill="#fff" font-family="Arial,sans-serif" font-size="74" font-weight="700">TUTORIAL</text>
+  <text x="84" y="380" fill="#c3ccda" font-family="Arial,sans-serif" font-size="26">Les bases du travail avec GitHub.</text>
+  <rect x="758" y="118" width="330" height="435" rx="24" fill="#f5f8fc"/>
+  <rect x="758" y="118" width="330" height="67" rx="24" fill="#e8eef5"/>
+  <circle cx="795" cy="151" r="8" fill="#ed7e78"/><circle cx="821" cy="151" r="8" fill="#f4c75c"/><circle cx="847" cy="151" r="8" fill="#67c49c"/>
+  <circle cx="803" cy="233" r="22" fill="url(#accent)"/>
+  <path d="M797 233 L802 238 L811 227" fill="none" stroke="#14283b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="840" y="226" width="178" height="10" rx="5" fill="#8796a8"/>
+  <rect x="840" y="246" width="142" height="8" rx="4" fill="#c5cfda"/>
+  <circle cx="803" cy="313" r="22" fill="#dfe8f1"/>
+  <text x="796" y="320" fill="#52718a" font-family="Arial,sans-serif" font-size="18" font-weight="700">2</text>
+  <rect x="840" y="306" width="195" height="10" rx="5" fill="#8796a8"/>
+  <rect x="840" y="326" width="155" height="8" rx="4" fill="#c5cfda"/>
+  <circle cx="803" cy="393" r="22" fill="#dfe8f1"/>
+  <text x="796" y="400" fill="#52718a" font-family="Arial,sans-serif" font-size="18" font-weight="700">3</text>
+  <rect x="840" y="386" width="164" height="10" rx="5" fill="#8796a8"/>
+  <rect x="840" y="406" width="133" height="8" rx="4" fill="#c5cfda"/>
+  <rect x="797" y="468" width="251" height="46" rx="23" fill="url(#accent)"/>
+  <text x="867" y="497" fill="#14283b" font-family="Arial,sans-serif" font-size="16" font-weight="700">ETAPE SUIVANTE</text>
+</svg>

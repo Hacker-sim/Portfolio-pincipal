@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1b2038"/><stop offset="1" stop-color="#37315f"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#a58dff"/><stop offset="1" stop-color="#5acbcf"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1015" cy="85" r="250" fill="#a58dff" opacity=".1"/>
+  <text x="80" y="152" fill="#b5a7ff" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">PROJET GITHUB</text>
+  <text x="80" y="253" fill="#fff" font-family="Arial,sans-serif" font-size="74" font-weight="700">IDEAS INTO</text>
+  <text x="80" y="335" fill="#fff" font-family="Arial,sans-serif" font-size="74" font-weight="700">CODE</text>
+  <text x="84" y="390" fill="#c6c5dc" font-family="Arial,sans-serif" font-size="26">Un espace pour construire et expérimenter.</text>
+  <rect x="755" y="130" width="340" height="407" rx="24" fill="#f8f7ff"/>
+  <rect x="755" y="130" width="340" height="68" rx="24" fill="#eceafb"/>
+  <circle cx="798" cy="164" r="17" fill="url(#accent)"/>
+  <path d="M792 157 L784 164 L792 171 M804 157 L812 164 L804 171" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="832" y="158" width="136" height="11" rx="5" fill="#74738f"/>
+  <rect x="793" y="237" width="263" height="59" rx="13" fill="#f0effa"/>
+  <rect x="815" y="258" width="10" height="10" rx="2" fill="#a58dff"/>
+  <rect x="841" y="259" width="152" height="8" rx="4" fill="#9b9ab2"/>
+  <rect x="793" y="313" width="263" height="59" rx="13" fill="#f0effa"/>
+  <rect x="815" y="334" width="10" height="10" rx="2" fill="#5acbcf"/>
+  <rect x="841" y="335" width="179" height="8" rx="4" fill="#9b9ab2"/>
+  <rect x="793" y="389" width="263" height="59" rx="13" fill="#f0effa"/>
+  <rect x="815" y="410" width="10" height="10" rx="2" fill="#f5b96d"/>
+  <rect x="841" y="411" width="129" height="8" rx="4" fill="#9b9ab2"/>
+  <rect x="793" y="473" width="132" height="37" rx="18" fill="url(#accent)"/>
+  <text x="822" y="498" fill="#1b2038" font-family="Arial,sans-serif" font-size="14" font-weight="700">EXPLORE</text>
+</svg>

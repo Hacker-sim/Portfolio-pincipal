@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102b31"/><stop offset="1" stop-color="#20564d"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#70d6b1"/><stop offset="1" stop-color="#8cd9e4"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1010" cy="80" r="250" fill="#70d6b1" opacity=".08"/>
+  <text x="80" y="150" fill="#8fe0c4" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">DONNEES DE TERRAIN</text>
+  <text x="80" y="251" fill="#fff" font-family="Arial,sans-serif" font-size="73" font-weight="700">RECENSEMENT</text>
+  <text x="84" y="304" fill="#c2d9d3" font-family="Arial,sans-serif" font-size="26">Cartographier, observer, agir.</text>
+  <rect x="700" y="103" width="414" height="469" rx="24" fill="#f4faf8"/>
+  <rect x="700" y="103" width="414" height="60" rx="24" fill="#e8f2ef"/>
+  <rect x="731" y="127" width="163" height="12" rx="6" fill="#526f68"/>
+  <rect x="731" y="188" width="352" height="350" rx="15" fill="#dcebe3"/>
+  <path d="M731 286 C800 258 835 303 887 270 S976 266 1083 217 M731 387 C803 352 855 422 922 374 S1010 351 1083 396 M805 188 C826 257 770 305 805 367 S828 450 810 538 M963 188 C923 252 993 315 956 382 S933 464 969 538" fill="none" stroke="#bdd3c8" stroke-width="7"/>
+  <path d="M867 268 C867 244 886 228 909 228 C932 228 951 244 951 268 C951 300 909 333 909 333 C909 333 867 300 867 268Z" fill="#45ad89"/>
+  <circle cx="909" cy="267" r="12" fill="#f4faf8"/>
+  <path d="M996 400 C996 382 1010 368 1028 368 C1046 368 1060 382 1060 400 C1060 425 1028 458 1028 458 C1028 458 996 425 996 400Z" fill="#5cb8c0"/>
+  <circle cx="1028" cy="399" r="10" fill="#f4faf8"/>
+  <rect x="752" y="482" width="167" height="38" rx="19" fill="#fff"/>
+  <circle cx="774" cy="501" r="7" fill="#45ad89"/>
+  <rect x="791" y="496" width="105" height="9" rx="4" fill="#81978f"/>
+</svg>

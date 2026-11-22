@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos — Portfolio Nsasi Siméon</title>
+    <meta name="description" content="Parcours, formation, compétences et profil de Siméon Nsasi, développeur web et administrateur réseau à Kinshasa.">
+    <meta name="theme-color" content="#07050d">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function (h) {
+            h.classList.add('js');
+            try { if (sessionStorage.getItem('pt')) { h.classList.add('pt-enter'); sessionStorage.removeItem('pt'); } } catch (e) {}
+        })(document.documentElement);
+    </script>
+</head>
+<body class="page-about">
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <div class="curtain" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="ambient" aria-hidden="true"></div>
+    <div class="grid-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a href="index.html" class="logo" aria-label="Siméon Nsasi — accueil">
+            <span class="logo-mark">SN</span><span class="logo-text">Siméon Nsasi</span>
+        </a>
+        <button class="menu-toggle" id="menu-icon" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav"><i class="bx bx-menu"></i></button>
+        <nav id="site-nav" class="site-nav" aria-label="Navigation principale">
+            <a href="index.html"><span class="nav-n">01</span>Accueil</a>
+            <a href="about.html" class="active" aria-current="page"><span class="nav-n">02</span>À propos</a>
+            <a href="services.html"><span class="nav-n">03</span>Services</a>
+            <a href="portfolio.html"><span class="nav-n">04</span>Portfolio</a>
+            <a href="contact.html"><span class="nav-n">05</span>Contact</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="container">
+            <div class="page-head">
+                <p class="eyebrow" data-reveal>02 — Mon histoire</p>
+                <h1 data-split><span class="grad">À propos</span> de moi</h1>
+            </div>
+
+            <div class="about-layout">
+                <aside class="about-side" data-reveal>
+                    <h2>Siméon Nsasi</h2>
+                    <p>Je suis un développeur web et administrateur réseau.</p>
+                    <div class="tablist" role="tablist" aria-label="Sections du profil" aria-orientation="vertical">
+                        <button class="tab" role="tab" id="tab-experience" data-tab="experience" aria-controls="panel-experience" aria-selected="true"><span class="tab-n">01</span>Expérience<i class="bx bx-right-arrow-alt"></i></button>
+                        <button class="tab" role="tab" id="tab-education" data-tab="education" aria-controls="panel-education" aria-selected="false" tabindex="-1"><span class="tab-n">02</span>Éducation<i class="bx bx-right-arrow-alt"></i></button>
+                        <button class="tab" role="tab" id="tab-skills" data-tab="skills" aria-controls="panel-skills" aria-selected="false" tabindex="-1"><span class="tab-n">03</span>Compétences<i class="bx bx-right-arrow-alt"></i></button>
+                        <button class="tab" role="tab" id="tab-profile" data-tab="profile" aria-controls="panel-profile" aria-selected="false" tabindex="-1"><span class="tab-n">04</span>Mon profil<i class="bx bx-right-arrow-alt"></i></button>
+                    </div>
+                </aside>
+
+                <div class="about-panels" data-reveal style="--delay:120ms">
+                    <!-- Expérience -->
+                    <section class="panel is-active" role="tabpanel" id="panel-experience" aria-labelledby="tab-experience" tabindex="0">
+                        <div class="panel-head">
+                            <h2>Mes <span class="grad">Expériences</span></h2>
+                            <p>Développement Web, Conception UI/UX, Administration Réseau, Gestion de Projet, Support Technique</p>
+                        </div>
+                        <div class="timeline rise">
+                            <article class="card t-item">
+                                <p class="t-year">Décembre 2024 - Février 2025</p>
+                                <h3>Intégrateur web Freelance</h3>
+                                <p class="t-company"><i class="bx bx-buildings"></i>FOCUS CREATE ASBL</p>
+                                <ul>
+                                    <li>Conversion de maquettes Figma/Adobe XD en code HTML/CSS.</li>
+                                    <li>Utilisation de Flexbox et Grid Layout pour un affichage structuré.</li>
+                                    <li>Optimisation des images et du code pour de meilleures performances.</li>
+                                </ul>
+                            </article>
+                            <article class="card t-item">
+                                <p class="t-year">Septembre - Novembre 2024</p>
+                                <h3>Maintenance et optimisation de sites web existants Freelance</h3>
+                                <p class="t-company"><i class="bx bx-buildings"></i>Fondation Vi-Zion</p>
+                                <ul>
+                                    <li>Correction de bugs sur WordPress (affichage, plugins, mises à jour).</li>
+                                    <li>Sécurisation de base : sauvegardes, protection contre spam, captcha.</li>
+                                    <li>Optimisation de la vitesse : cache, compression, réduction du JavaScript/CSS.</li>
+                                </ul>
+                            </article>
+                            <article class="card t-item">
+                                <p class="t-year">Mai - Juillet 2024</p>
+                                <h3>Consultant IT &amp; Support Technique Freelance</h3>
+                                <p class="t-company"><i class="bx bx-buildings"></i>Fondation Vi-Zion</p>
+                                <ul>
+                                    <li>Assistance pour dépannage informatique (Windows, réseaux d'entreprise , logiciels).</li>
+                                    <li>Installation de réseaux locaux : configuration de routeurs, partages de fichiers et imprimantes.</li>
+                                    <li>Conseils sur la cybersécurité de base pour les utilisateurs (antivirus, mots de passe, sauvegardes).</li>
+                                </ul>
+                            </article>
+                            <article class="card t-item">
+                                <p class="t-year">Janvier - Février 2024</p>
+                                <h3>Développeur web technique Freelance</h3>
+                                <p class="t-company"><i class="bx bx-buildings"></i>Fondation Ecoville</p>
+                                <ul>
+                                    <li>Création de sites vitrines responsives (HTML, CSS, JavaScript).</li>
+                                    <li>Intégration de solutions de paiement en ligne.</li>
+                                    <li>Optimisation SEO de base pour améliorer la visibilité.</li>
+                                </ul>
+                            </article>
+                            <article class="card t-item">
+                                <p class="t-year">Juin 2022 - Janvier 2024</p>
+                                <h3>Administrateur réseau et support technique</h3>
+                                <p class="t-company"><i class="bx bx-buildings"></i>ONG A.D.D.E.</p>
+                                <ul>
+                                    <li>Participation à l’audit et à l’amélioration du réseau de la Fondation</li>
+                                    <li>Diagnostic de pannes réseau sur les postes utilisateurs.</li>
+                                    <li>Réorganisation des connexions LAN pour améliorer la stabilité.</li>
+                                </ul>
+                            </article>
+                            <article class="card t-item">
+                                <p class="t-year">Mars - Mai 2022</p>
+                                <h3>Technicien support informatique</h3>
+                                <p class="t-company"><i class="bx bx-buildings"></i>PayNetwork</p>
+                                <ul>
+                                    <li>Assistance aux utilisateurs pour la résolution de problèmes matériels et logiciels.</li>
+                                    <li>Installation et configuration de nouveaux équipements informatiques.</li>
+                                    <li>Maintenance préventive et curative des postes de travail.</li>
+                                    <li>Formation de base des utilisateurs sur les outils bureautiques.</li>
+                                </ul>
+                            </article>
+                        </div>
+                    </section>
+
+                    <!-- Éducation -->
+                    <section class="panel" role="tabpanel" id="panel-education" aria-labelledby="tab-education" tabindex="0" hidden>
+                        <div class="panel-head">
+                            <h2>Mon <span class="grad">Éducation</span></h2>
+                            <p>Mon parcours académique :</p>
+                        </div>
+                        <div class="edu-grid rise">
+                            <article class="card">
+                                <p class="t-year">2023 - 2024</p>
+                                <h3>Licence Bac + 5, en Réseaux Informatiques et Télécommunications</h3>
+                                <p class="t-company"><i class="bx bxs-graduation"></i>Université Pédagogique Nationale</p>
+                            </article>
+                            <article class="card">
+                                <p class="t-year">2019 - 2020</p>
+                                <h3>Diplome de Graduat en Mathématiques et informatique</h3>
+                                <p class="t-company"><i class="bx bxs-graduation"></i>Université de Technologie</p>
+                            </article>
+                            <article class="card">
+                                <p class="t-year">2015 - 2016</p>
+                                <h3>Diplome d'Etat en Latin-Philo</h3>
+                                <p class="t-company"><i class="bx bxs-graduation"></i>C.S. Georges Muke</p>
+                            </article>
+                            <article class="card">
+                                <p class="t-year">2023</p>
+                                <h3>Certificat de formation en développement web</h3>
+                                <p class="t-company"><i class="bx bx-certification"></i>Centre de Formation WebPro</p>
+                            </article>
+                            <article class="card">
+                                <p class="t-year">2022</p>
+                                <h3>Certificat de formation en administration des systèmes</h3>
+                                <p class="t-company"><i class="bx bx-certification"></i>Centre de Formation IT Solutions</p>
+                            </article>
+                        </div>
+                    </section>
+
+                    <!-- Compétences -->
+                    <section class="panel" role="tabpanel" id="panel-skills" aria-labelledby="tab-skills" tabindex="0" hidden>
+                        <div class="panel-head">
+                            <h2>Mes <span class="grad">Compétences</span></h2>
+                            <p>Mes compétences techniques :</p>
+                        </div>
+                        <div class="rise">
+                            <div class="skill-group">
+                                <h3>Développement &amp; design</h3>
+                                <div class="skill-grid">
+                                    <div class="card skill"><i class="bx bxl-html5"></i><span>HTML5 &amp; CSS3</span></div>
+                                    <div class="card skill"><i class="bx bxl-tailwind-css"></i><span>tailwindcss</span></div>
+                                    <div class="card skill"><i class="bx bxl-javascript"></i><span>JavaScript</span></div>
+                                    <div class="card skill"><i class="bx bxl-react"></i><span>React.js</span></div>
+                                    <div class="card skill"><i class="bx bxl-nodejs"></i><span>Node.js</span></div>
+                                    <div class="card skill"><i class="bx bxl-python"></i><span>Python</span></div>
+                                    <div class="card skill"><i class="bx bxl-wordpress"></i><span>WordPress</span></div>
+                                    <div class="card skill"><i class="bx bxl-github"></i><span>GitHub</span></div>
+                                    <div class="card skill"><i class="bx bxl-figma"></i><span>Figma</span></div>
+                                    <div class="card skill"><i class="bx bxs-data"></i><span>Bases de données</span></div>
+                                    <div class="card skill"><i class="bx bx-paint"></i><span>Design Graphique</span></div>
+                                </div>
+                            </div>
+                            <div class="skill-group">
+                                <h3>Systèmes, réseaux &amp; gestion</h3>
+                                <div class="skill-grid">
+                                    <div class="card skill"><i class="bx bx-network-chart"></i><span>Administration des systèmes</span></div>
+                                    <div class="card skill"><i class="bx bx-server"></i><span>Virtualisation</span></div>
+                                    <div class="card skill"><i class="bx bx-sitemap"></i><span>Réseaux et protocoles</span></div>
+                                    <div class="card skill"><i class="bx bx-briefcase-alt"></i><span>Gestion de projet IT</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Profil -->
+                    <section class="panel" role="tabpanel" id="panel-profile" aria-labelledby="tab-profile" tabindex="0" hidden>
+                        <div class="panel-head">
+                            <h2>Mon <span class="grad">Profil</span></h2>
+                            <p>Mes coordonnées :</p>
+                        </div>
+                        <dl class="profile-list rise">
+                            <div class="card"><dt>Nom</dt><dd>Siméon Nsasi</dd></div>
+                            <div class="card"><dt>Ville</dt><dd>Kinshasa</dd></div>
+                            <div class="card"><dt>Nationalité</dt><dd>Congolaise</dd></div>
+                            <div class="card"><dt>Full time</dt><dd><span class="status-dot"><span class="pulse"></span>Disponible</span></dd></div>
+                            <div class="card"><dt>Freelance</dt><dd><span class="status-dot"><span class="pulse"></span>Disponible</span></dd></div>
+                            <div class="card"><dt>Langues</dt><dd>Français, Anglais</dd></div>
+                            <div class="card"><dt>Phone</dt><dd><a href="tel:+243817461115">+243 817 461 115</a></dd></div>
+                            <div class="card"><dt>Email</dt><dd><a href="mailto:ivannsasi06@gmail.com">ivannsasi06@gmail.com</a></dd></div>
+                        </dl>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span data-year>2026</span> Siméon Nsasi · Kinshasa, RDC</p>
+            <div class="socials">
+                <a href="https://github.com/Hacker-sim" class="btn btn--icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/sim%C3%A9on-nsasi-526733238" class="btn btn--icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://wa.me/+243817461115" class="btn btn--icon" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

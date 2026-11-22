@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102832"/><stop offset="1" stop-color="#16495a"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#5acbcf"/><stop offset="1" stop-color="#80e0b0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1020" cy="80" r="245" fill="#5acbcf" opacity=".08"/>
+  <text x="80" y="150" fill="#8ce5e2" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">PILOTAGE</text>
+  <text x="80" y="248" fill="#fff" font-family="Arial,sans-serif" font-size="74" font-weight="700">OPERATIONS</text>
+  <text x="84" y="300" fill="#b9d1d6" font-family="Arial,sans-serif" font-size="27">Organiser. Suivre. Décider.</text>
+  <rect x="690" y="92" width="432" height="485" rx="25" fill="#f7fbfc"/>
+  <rect x="690" y="92" width="432" height="67" rx="25" fill="#e8f1f3"/>
+  <rect x="725" y="119" width="108" height="13" rx="6" fill="#506c75"/>
+  <circle cx="1065" cy="126" r="15" fill="#b9dedd"/>
+  <rect x="725" y="190" width="174" height="94" rx="15" fill="#e7f6f3"/>
+  <rect x="746" y="211" width="80" height="8" rx="4" fill="#79aaa4"/>
+  <text x="746" y="260" fill="#1e5554" font-family="Arial,sans-serif" font-size="29" font-weight="700">84%</text>
+  <rect x="917" y="190" width="170" height="94" rx="15" fill="#edf0fb"/>
+  <rect x="938" y="211" width="76" height="8" rx="4" fill="#9098bc"/>
+  <text x="938" y="260" fill="#444d79" font-family="Arial,sans-serif" font-size="29" font-weight="700">+12</text>
+  <rect x="725" y="309" width="362" height="224" rx="15" fill="#f0f5f7"/>
+  <path d="M760 478 L820 430 L875 449 L930 374 L985 401 L1048 342" fill="none" stroke="url(#accent)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M760 496 H1050 M760 450 H1050 M760 404 H1050 M760 358 H1050" stroke="#d8e2e5" stroke-width="2"/>
+  <circle cx="930" cy="374" r="9" fill="#5acbcf"/><circle cx="1048" cy="342" r="9" fill="#80e0b0"/>
+</svg>

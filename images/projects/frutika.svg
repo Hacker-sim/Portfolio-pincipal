@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#11182f"/><stop offset="1" stop-color="#16435a"/></linearGradient>
+    <linearGradient id="glow" x2="1" y2="1"><stop stop-color="#5acbcf"/><stop offset="1" stop-color="#8f8cff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="990" cy="90" r="220" fill="#5acbcf" opacity=".08"/>
+  <circle cx="160" cy="620" r="250" fill="#8f8cff" opacity=".08"/>
+  <rect x="78" y="78" width="210" height="42" rx="21" fill="#5acbcf" opacity=".16"/>
+  <text x="104" y="106" fill="#8ce5e2" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="3">DOCUMENTATION</text>
+  <text x="78" y="235" fill="#fff" font-family="Arial,sans-serif" font-size="72" font-weight="700">FRUTIKA</text>
+  <text x="82" y="286" fill="#b9c9de" font-family="Arial,sans-serif" font-size="28">Documentation, en un clic.</text>
+  <rect x="740" y="112" width="342" height="458" rx="24" fill="#f8fbff"/>
+  <rect x="740" y="112" width="342" height="65" rx="24" fill="#eaf3f7"/>
+  <circle cx="777" cy="145" r="8" fill="#ff8275"/><circle cx="804" cy="145" r="8" fill="#f4c85a"/><circle cx="831" cy="145" r="8" fill="#63c7a2"/>
+  <rect x="780" y="211" width="95" height="12" rx="6" fill="#5acbcf"/>
+  <rect x="780" y="244" width="254" height="9" rx="4" fill="#cbd7e3"/>
+  <rect x="780" y="266" width="230" height="9" rx="4" fill="#dbe4ec"/>
+  <rect x="780" y="312" width="254" height="92" rx="12" fill="#edf6f6"/>
+  <rect x="800" y="334" width="145" height="10" rx="5" fill="#80c9c5"/>
+  <rect x="800" y="356" width="208" height="8" rx="4" fill="#cbd7e3"/>
+  <rect x="800" y="375" width="184" height="8" rx="4" fill="#cbd7e3"/>
+  <rect x="780" y="430" width="254" height="9" rx="4" fill="#cbd7e3"/>
+  <rect x="780" y="453" width="220" height="9" rx="4" fill="#dbe4ec"/>
+  <rect x="780" y="494" width="136" height="38" rx="19" fill="url(#glow)"/>
+  <text x="809" y="519" fill="#102234" font-family="Arial,sans-serif" font-size="14" font-weight="700">GENERATE</text>
+</svg>

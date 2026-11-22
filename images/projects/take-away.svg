@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#33202b"/><stop offset="1" stop-color="#754237"/></linearGradient>
+    <linearGradient id="food"><stop stop-color="#ffb365"/><stop offset="1" stop-color="#f07152"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="980" cy="125" r="245" fill="#ffb365" opacity=".1"/>
+  <text x="80" y="155" fill="#ffc28a" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">COMMANDE EN LIGNE</text>
+  <text x="80" y="255" fill="#fff" font-family="Arial,sans-serif" font-size="76" font-weight="700">TAKE AWAY</text>
+  <text x="84" y="308" fill="#efd5c9" font-family="Arial,sans-serif" font-size="27">Votre repas, prêt à emporter.</text>
+  <rect x="754" y="120" width="310" height="424" rx="28" fill="#fff8f1"/>
+  <rect x="782" y="152" width="254" height="176" rx="20" fill="#f9dfc5"/>
+  <circle cx="908" cy="238" r="66" fill="url(#food)"/>
+  <circle cx="883" cy="219" r="9" fill="#fff3d4"/><circle cx="932" cy="250" r="8" fill="#fff3d4"/><circle cx="910" cy="270" r="7" fill="#fff3d4"/>
+  <path d="M850 232 C870 193 940 190 966 225" fill="none" stroke="#72935e" stroke-width="10" stroke-linecap="round"/>
+  <rect x="785" y="355" width="185" height="14" rx="7" fill="#5e4540"/>
+  <rect x="785" y="382" width="130" height="9" rx="4" fill="#c2aaa0"/>
+  <rect x="785" y="421" width="250" height="54" rx="27" fill="#ed7955"/>
+  <text x="842" y="455" fill="#fff" font-family="Arial,sans-serif" font-size="18" font-weight="700">COMMANDER</text>
+  <circle cx="1003" cy="362" r="24" fill="#f4bd61"/><text x="995" y="369" fill="#56352f" font-family="Arial,sans-serif" font-size="19" font-weight="700">3</text>
+</svg>

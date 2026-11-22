@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#102737"/><stop offset="1" stop-color="#183f57"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#61d6d1"/><stop offset="1" stop-color="#8ea8ff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <circle cx="1060" cy="105" r="250" fill="#61d6d1" opacity=".09"/>
+  <text x="80" y="150" fill="#83e0dc" font-family="Arial,sans-serif" font-size="20" font-weight="700" letter-spacing="4">EXPLORATION</text>
+  <text x="80" y="270" fill="#fff" font-family="Arial,sans-serif" font-size="112" font-weight="700">ZEE</text>
+  <text x="86" y="326" fill="#bdd1dc" font-family="Arial,sans-serif" font-size="27">Un projet en mouvement.</text>
+  <path d="M688 385 C775 300 818 300 898 365 S1026 420 1110 320" fill="none" stroke="#254f60" stroke-width="6"/>
+  <path d="M730 248 C815 170 879 198 938 252 S1044 296 1092 225" fill="none" stroke="#254f60" stroke-width="6"/>
+  <path d="M744 498 C810 436 862 440 917 482 S1020 526 1084 455" fill="none" stroke="#254f60" stroke-width="6"/>
+  <circle cx="730" cy="248" r="28" fill="url(#accent)"/>
+  <circle cx="938" cy="252" r="20" fill="#7e8ef5"/>
+  <circle cx="1092" cy="225" r="31" fill="#61d6d1"/>
+  <circle cx="688" cy="385" r="18" fill="#8ea8ff"/>
+  <circle cx="898" cy="365" r="33" fill="url(#accent)"/>
+  <circle cx="1110" cy="320" r="21" fill="#61d6d1"/>
+  <circle cx="744" cy="498" r="24" fill="#61d6d1"/>
+  <circle cx="917" cy="482" r="17" fill="#8ea8ff"/>
+  <circle cx="1084" cy="455" r="30" fill="url(#accent)"/>
+  <circle cx="898" cy="365" r="11" fill="#e8ffff"/>
+  <circle cx="730" cy="248" r="9" fill="#e8ffff"/>
+  <circle cx="1092" cy="225" r="10" fill="#e8ffff"/>
+</svg>

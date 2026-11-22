@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services — Portfolio Nsasi Siméon</title>
+    <meta name="description" content="Développement web, support IT, UI/UX, administration réseau, bases de données et solutions cloud : les services proposés par Siméon Nsasi.">
+    <meta name="theme-color" content="#07050d">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function (h) {
+            h.classList.add('js');
+            try { if (sessionStorage.getItem('pt')) { h.classList.add('pt-enter'); sessionStorage.removeItem('pt'); } } catch (e) {}
+        })(document.documentElement);
+    </script>
+</head>
+<body class="page-services">
+    <a class="skip-link" href="#main">Aller au contenu</a>
+    <div class="curtain" aria-hidden="true"></div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="ambient" aria-hidden="true"></div>
+    <div class="grid-bg" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <a href="index.html" class="logo" aria-label="Siméon Nsasi — accueil">
+            <span class="logo-mark">SN</span><span class="logo-text">Siméon Nsasi</span>
+        </a>
+        <button class="menu-toggle" id="menu-icon" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="site-nav"><i class="bx bx-menu"></i></button>
+        <nav id="site-nav" class="site-nav" aria-label="Navigation principale">
+            <a href="index.html"><span class="nav-n">01</span>Accueil</a>
+            <a href="about.html"><span class="nav-n">02</span>À propos</a>
+            <a href="services.html" class="active" aria-current="page"><span class="nav-n">03</span>Services</a>
+            <a href="portfolio.html"><span class="nav-n">04</span>Portfolio</a>
+            <a href="contact.html"><span class="nav-n">05</span>Contact</a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="container">
+            <div class="page-head">
+                <p class="eyebrow" data-reveal>03 — Ce que je fais</p>
+                <h1 data-split>Mes <span class="grad">Services</span></h1>
+                <p data-reveal style="--delay:150ms">Je conçois des applications web performantes et j'aide à sécuriser les systèmes qui les font tourner. Mes services s'articulent autour de deux expertises complémentaires.</p>
+                <div class="filters" role="navigation" aria-label="Aller à un domaine" data-reveal style="--delay:250ms">
+                    <a class="filter-btn" href="#web"><i class="bx bx-code-alt"></i>Développement Web</a>
+                    <a class="filter-btn" href="#cyber"><i class="bx bxs-shield-alt-2"></i>Cybersécurité</a>
+                </div>
+            </div>
+
+            <!-- ============ Domaine 1 : Développement Web ============ -->
+            <section class="svc-domain" id="web" aria-labelledby="web-title">
+                <div class="svc-banner" data-reveal>
+                    <i class="bx bx-code-alt svc-ghost" aria-hidden="true"></i>
+                    <span class="svc-num" aria-hidden="true">01</span>
+                    <div class="svc-banner-body">
+                        <p class="eyebrow">Domaine 1</p>
+                        <h2 id="web-title">Développement <span class="grad">Web</span></h2>
+                        <p>Du simple site vitrine à l'application complète : des interfaces soignées, une logique applicative solide et des solutions adaptées à vos besoins.</p>
+                        <div class="tags"><span>HTML/CSS</span><span>JavaScript</span><span>React.js</span><span>Node.js</span><span>Python</span><span>WordPress</span></div>
+                    </div>
+                </div>
+
+                <div class="svc-grid" data-stagger>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-layout"></i></span><span class="svc-idx">01</span></div>
+                        <h3>Développement Web Frontend</h3>
+                        <p>Création d'interfaces modernes, responsive, intuitives et esthétiques.</p>
+                        <div class="tags"><span>HTML/CSS</span><span>JavaScript</span><span>React.js</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-server"></i></span><span class="svc-idx">02</span></div>
+                        <h3>Développement Web Backend</h3>
+                        <p>Développement de la logique applicative, gestion des données, APIs et fonctionnalités côté serveur.</p>
+                        <div class="tags"><span>Node.js</span><span>Python</span><span>Bases de données</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-layer"></i></span><span class="svc-idx">03</span></div>
+                        <h3>Développement Full Stack</h3>
+                        <p>Conception et réalisation d'applications web complètes, du frontend au backend.</p>
+                        <div class="tags"><span>React.js</span><span>Node.js</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-globe"></i></span><span class="svc-idx">04</span></div>
+                        <h3>Création de sites Web</h3>
+                        <p>Conception de sites vitrines, portfolios, plateformes et solutions web adaptées aux besoins des clients.</p>
+                        <div class="tags"><span>Sites vitrines</span><span>WordPress</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-wrench"></i></span><span class="svc-idx">05</span></div>
+                        <h3>Maintenance et amélioration</h3>
+                        <p>Correction de bugs, optimisation des performances, amélioration de l'expérience utilisateur et évolution des applications existantes.</p>
+                        <div class="tags"><span>Correction de bugs</span><span>Performances</span><span>UX</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- ============ Domaine 2 : Cybersécurité ============ -->
+            <section class="svc-domain svc-domain--sec" id="cyber" aria-labelledby="cyber-title">
+                <div class="svc-banner" data-reveal>
+                    <i class="bx bxs-shield-alt-2 svc-ghost" aria-hidden="true"></i>
+                    <span class="svc-num" aria-hidden="true">02</span>
+                    <div class="svc-banner-body">
+                        <p class="eyebrow">Domaine 2</p>
+                        <h2 id="cyber-title"><span class="grad">Cybersécurité</span></h2>
+                        <p>Identifier les faiblesses, sécuriser les réseaux et les applications, et accompagner l'amélioration de la posture de sécurité, dans un cadre toujours autorisé.</p>
+                        <div class="tags"><span>Kali Linux</span><span>OWASP ZAP</span><span>pfSense</span><span>MobSF</span></div>
+                    </div>
+                </div>
+
+                <div class="svc-grid" data-stagger>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-search-alt"></i></span><span class="svc-idx">01</span></div>
+                        <h3>Analyse de sécurité Web</h3>
+                        <p>Évaluation de la sécurité des applications web dans un cadre autorisé, identification des vulnérabilités potentielles et recommandations de correction.</p>
+                        <div class="tags"><span>OWASP ZAP</span><span>Kali Linux</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-network-chart"></i></span><span class="svc-idx">02</span></div>
+                        <h3>Sécurité des réseaux</h3>
+                        <p>Analyse des infrastructures réseau, configuration de sécurité, pare-feu, segmentation et sécurisation des communications.</p>
+                        <div class="tags"><span>pfSense</span><span>Pare-feu</span><span>Segmentation</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-analyse"></i></span><span class="svc-idx">03</span></div>
+                        <h3>Analyse et diagnostic de sécurité</h3>
+                        <p>Identification des risques, analyse des configurations et évaluation des faiblesses potentielles.</p>
+                        <div class="tags"><span>Risques</span><span>Configurations</span><span>MobSF</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-pulse"></i></span><span class="svc-idx">04</span></div>
+                        <h3>Surveillance et analyse des incidents</h3>
+                        <p>Analyse des alertes de sécurité, investigation des événements suspects et assistance à la qualification des incidents.</p>
+                        <div class="tags"><span>Alertes</span><span>Investigation</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                    <article class="card svc-card" data-tilt="4">
+                        <div class="svc-top"><span class="svc-icon"><i class="bx bx-check-shield"></i></span><span class="svc-idx">05</span></div>
+                        <h3>Accompagnement en sécurité informatique</h3>
+                        <p>Recommandations de bonnes pratiques, sensibilisation et amélioration de la posture de sécurité des systèmes.</p>
+                        <div class="tags"><span>Bonnes pratiques</span><span>Sensibilisation</span></div>
+                        <a class="link-arrow" href="contact.html">En discuter <i class="bx bx-right-arrow-alt"></i></a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Autres compétences IT (reprises de l'ancienne page) -->
+            <div class="svc-more" data-reveal>
+                <p class="svc-more-label">Également</p>
+                <ul class="tags">
+                    <li><span>Support &amp; conseil IT</span></li>
+                    <li><span>UI/UX Design</span></li>
+                    <li><span>Administration réseau</span></li>
+                    <li><span>Gestion de bases de données</span></li>
+                    <li><span>Solutions cloud</span></li>
+                </ul>
+            </div>
+
+            <div class="svc-cta" data-reveal>
+                <div>
+                    <h2>Un besoin dans l'un de ces domaines&nbsp;?</h2>
+                    <p>Full time ou freelance, je suis disponible. Parlez-moi de votre projet.</p>
+                </div>
+                <a href="contact.html" class="btn" data-magnetic>Me contacter <i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>© <span data-year>2026</span> Siméon Nsasi · Kinshasa, RDC</p>
+            <div class="socials">
+                <a href="https://github.com/Hacker-sim" class="btn btn--icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/sim%C3%A9on-nsasi-526733238" class="btn btn--icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://wa.me/+243817461115" class="btn btn--icon" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><i class="bx bxl-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
